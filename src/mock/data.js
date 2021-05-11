@@ -10,8 +10,8 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Добрый день ! Меня зовут ',
-  name: 'Егор',
-  subtitle: 'Я Javasript разработчик',
+  name: 'Егор.',
+  subtitle: 'Я - Javasript разработчик.',
   cta: 'Ну или планирую им стать :-)',
 };
 
@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'aboutme.webp',
   paragraphOne:
-    'Добрый день. Меня зовут Егор. Я начал изучать JavaSript разработку в 2019 году.И это меня увлекло.',
-  paragraphTwo: `Можно что еще написать.`,
-  paragraphThree: 'Ниже резюме с hh.',
+    'Добрый день. Меня зовут Егор.',
+  paragraphTwo: `Я начал изучать JavaSript разработку в 2019 году.`,
+  paragraphThree: 'И это меня увлекло.',
   resume: 'https://ekaterinburg.hh.ru/resume/dd37e7f8ff086e618e0039ed1f323635306275',
 };
 
@@ -30,8 +30,8 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project-1.png',
-    title: 'workplace planner',
-    info: 'Рассадка сотрудников в офисе',
+    title: 'Workplace planner',
+    info: 'Рассадка сотрудников в офисе.',
     info2: 'Technologies: React, Redux, Webpack и немного TS',
     url: 'https://blissful-torvalds-09138c.netlify.app/',
     repo: 'https://github.com/Egor18032019/PlaningWorkSpaceOnOffice', // if no repo, the button will not show up
@@ -48,11 +48,12 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project-4.png',
-    title: 'Game Cloun app',
+    title: 'Game app',
     info:
-      'Игра про кубики.Только один уровень. И прошу прощения за долгую загрузку=бесплатный хостинг',
+      'Игра про кубики.',
     info2: 'Technologies: JS, Phaser, Express, MongoDB',
     info3: 'Логин:test3@test.com Пароль:123',
+    info4: 'Долгая загрузка => бесплатный хостинг',
     url: 'https://purrfect-autumn-linseed.glitch.me/login',
     repo: 'https://github.com/Egor18032019/game-bubble-on-js', // if no repo, the button will not show up
   },
@@ -63,7 +64,7 @@ export const projectsData = [
     info: 'Игра где нужно собрать звезды и не коснуться бобмы.',
     info2: 'Technologies: JS, Phaser, Express, MongoDB',
     info3: 'Логин:test3@test.com Пароль:123',
-    info4: 'И прошу прощения за долгую загрузку=бесплатный хостинг',
+    info4: 'И прошу прощения за долгую загрузку=бесплатный хостинг.',
     url: 'https://loud-horse-mackerel.glitch.me/',
     repo: 'https://github.com/Egor18032019/game-bubble-on-js', // if no repo, the button will not show up
   },
@@ -71,8 +72,8 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Написать мне на эл.почту',
-  btn: 'почта',
+  cta: 'Написать мне.',
+  btn: 'почта ',
   email: 'goro4@mail.ru',
 };
 
