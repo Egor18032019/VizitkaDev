@@ -50,7 +50,7 @@ export const projectsData = [
     img: 'project-4.png',
     title: 'Game app',
     info:
-      'Игра про кубики.',
+      'Игра в которой нужно передвинуть кубики на базу, за меньшее кол-во шагов.',
     info2: 'Technologies: JS, Phaser, Express, MongoDB',
     info3: 'Логин:test3@test.com Пароль:123',
     info4: 'Долгая загрузка => бесплатный хостинг',
@@ -61,7 +61,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project-3.png',
     title: 'Game Danger Bombs app',
-    info: 'Игра где нужно собрать звезды и не коснуться бобмы.',
+    info: 'Игра, в которой нужно собрать звезды, не коснувшись бобмы.',
     info2: 'Technologies: JS, Phaser, Express, MongoDB',
     info3: 'Логин:test3@test.com Пароль:123',
     info4: 'И прошу прощения за долгую загрузку=бесплатный хостинг.',
