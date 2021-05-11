@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'aboutme.webp',
   paragraphOne:
-    'Добрый день. Меня зовут Егор.',
-  paragraphTwo: `Я начал изучать JavaSript разработку в 2019 году.`,
-  paragraphThree: 'И это меня увлекло.',
+    'Я начал изучать JavaSript разработку в 2019 году.',
+  paragraphTwo: `И это меня увлекло.`,
+  paragraphThree: '',
   resume: 'https://ekaterinburg.hh.ru/resume/dd37e7f8ff086e618e0039ed1f323635306275',
 };
 
@@ -32,7 +32,7 @@ export const projectsData = [
     img: 'project-1.png',
     title: 'Workplace planner',
     info: 'Рассадка сотрудников в офисе.',
-    info2: 'Technologies: React, Redux, Webpack и немного TS',
+    info2: 'Technologies: React, Redux, Webpack и немного TS.',
     url: 'https://blissful-torvalds-09138c.netlify.app/',
     repo: 'https://github.com/Egor18032019/PlaningWorkSpaceOnOffice', // if no repo, the button will not show up
   },
@@ -40,7 +40,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project-2.png',
     title: 'Yandexmap app',
-    info: 'Одностроничный сайт где можно выбрать несколько маршрутов и в живую увидеть их',
+    info: 'Одностроничный сайт, на котором можно выбрать несколько маршрутов и увидеть их на экране.',
     info2: 'Technologies: React.',
     url: 'https://goofy-swartz-e16c87.netlify.app/',
     repo: 'https://github.com/Egor18032019/TeachYandexApiMap', // if no repo, the button will not show up
@@ -50,10 +50,10 @@ export const projectsData = [
     img: 'project-4.png',
     title: 'Game app',
     info:
-      'Игра в которой нужно передвинуть кубики на базу, за меньшее кол-во шагов.',
-    info2: 'Technologies: JS, Phaser, Express, MongoDB',
+      'Игра, в которой нужно передвинуть кубики на базу за наименьшее количество шагов.',
+    info2: 'Technologies: JS, Phaser, Express, MongoDB.',
     info3: 'Логин:test3@test.com Пароль:123',
-    info4: 'Долгая загрузка => бесплатный хостинг',
+    info4: 'Долгая загрузка <= бесплатный хостинг.',
     url: 'https://purrfect-autumn-linseed.glitch.me/login',
     repo: 'https://github.com/Egor18032019/game-bubble-on-js', // if no repo, the button will not show up
   },
@@ -62,9 +62,9 @@ export const projectsData = [
     img: 'project-3.png',
     title: 'Game Danger Bombs app',
     info: 'Игра, в которой нужно собрать звезды, не коснувшись бобмы.',
-    info2: 'Technologies: JS, Phaser, Express, MongoDB',
+    info2: 'Technologies: JS, Phaser, Express, MongoDB.',
     info3: 'Логин:test3@test.com Пароль:123',
-    info4: 'И прошу прощения за долгую загрузку=бесплатный хостинг.',
+    info4: 'Долгая загрузка <= бесплатный хостинг.',
     url: 'https://loud-horse-mackerel.glitch.me/',
     repo: 'https://github.com/Egor18032019/game-bubble-on-js', // if no repo, the button will not show up
   },
@@ -72,8 +72,8 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Написать мне.',
-  btn: 'почта ',
+  cta: '',
+  btn: 'Написать мне',
   email: 'goro4@mail.ru',
 };
 
