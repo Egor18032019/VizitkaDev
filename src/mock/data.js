@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'Я начал изучать JavaSript разработку в 2019 году.',
   paragraphTwo: `И это меня увлекло.`,
-  paragraphThree: '',
+  paragraphThree: ' ',
   resume: 'https://ekaterinburg.hh.ru/resume/dd37e7f8ff086e618e0039ed1f323635306275',
 };
 
@@ -72,7 +72,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: ' ',
   btn: 'Написать мне',
   email: 'goro4@mail.ru',
 };
