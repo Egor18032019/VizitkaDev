@@ -32,8 +32,8 @@ export const projectsData = [
     img: 'project-1.png',
     title: 'workplace planner',
     info: 'Рассадка сотрудников в офисе',
-    info2: 'Technologies: React, Redux, Webpack и немного TS',
-    url: 'https://blissful-torvalds-09138c.netlify.app/',
+    info2: 'Technologies: React, Redux, Webpack,FireBase,Material-Ui и немного TS',
+    url: 'https://youthful-goldstine-d89c87.netlify.app/',
     repo: 'https://github.com/Egor18032019/PlaningWorkSpaceOnOffice', // if no repo, the button will not show up
   },
   {
