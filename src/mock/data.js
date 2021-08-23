@@ -67,6 +67,15 @@ export const projectsData = [
     url: 'https://loud-horse-mackerel.glitch.me/',
     repo: 'https://github.com/Egor18032019/game-bubble-on-js', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'project-5.png',
+    title: 'Игра Память(угадай все карты)',
+    info: 'Игра, в которой нужно угадать все пары карт.',
+    info2: 'Technologies: JS, React.',
+    url: 'https://stoic-minsky-c0ed09.netlify.app/',
+    repo: 'https://github.com/Egor18032019/AppMemory/tree/main/src', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
